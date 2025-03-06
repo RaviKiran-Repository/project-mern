@@ -32,11 +32,12 @@ Responsive UI: Ensures a seamless experience across different devices.
 HTML, CSS, JavaScript: To enhance responsiveness and usability.
 
 Backend:
+>
+Node.js with Express.js: For handling API requests, user authentication, and server-side logic.<br>
+MongoDB: As a NoSQL database to store user data efficiently.<br>
+RESTful APIs: For communication between the frontend and backend.<br>
+Fetch API: To efficiently handle client-server communication.<br>
 
-Node.js with Express.js: For handling API requests, user authentication, and server-side logic.
-MongoDB: As a NoSQL database to store user data efficiently.
-RESTful APIs: For communication between the frontend and backend.
-Fetch API: To efficiently handle client-server communication.
 Database:
-MongoDB: Storing user data in the database.
+MongoDB: Storing user data in the database.<br>
 Firebase: For real-time database management, authentication, and cloud functions.
