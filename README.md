@@ -6,30 +6,30 @@ The Smart Healthcare Chatbot is a user-friendly web application designed to assi
 
 2. Core Features:
 
-Symptom Checker: Provides general health guidance based on user input.
-Mental Health Support: Offers guided meditations, stress management tools, and access to licensed therapists to promote emotional well-being.
-Health Statistics Dashboard: Displays user health data in an interactive format.
-Emergency Assistance: Provides contact details for nearby hospitals and first-aid instructions.
-User Authentication: Secure login and data protection using JWT authentication and Firebase authentication.
-Family Health Management: Allows users to monitor and manage health data for their family members.
-Multi-Language Support: Provides services in regional languages for better inclusivity.
-Doctor Communication: Facilitates direct communication for follow-ups and medical queries.
-Health Statistics: Delivers localized health trends and alerts based on user demographics.
-Tracking: Step count and calorie tracking, integration with wearable devices, and nutrition and sleep tracking.
-Diagnostic Center Integration: Enables users to manage and access health reports from labs.
-Health Reminders: Sends notifications for timely medication adherence.
-Educational Content: Provides access to articles, videos, and resources on health and wellness.
-Nearby Hospitals: Provides information about nearby hospitals and their available services.
-Voice-Enabled Interaction: Enables seamless interaction for users with literacy or vision impairments.
+Symptom Checker: Provides general health guidance based on user input.<br/>
+Mental Health Support: Offers guided meditations, stress management tools, and access to licensed therapists to promote emotional well-being.<br/>
+Health Statistics Dashboard: Displays user health data in an interactive format.<br/>
+Emergency Assistance: Provides contact details for nearby hospitals and first-aid instructions.<br/>
+User Authentication: Secure login and data protection using JWT authentication and Firebase authentication.<br/>
+Family Health Management: Allows users to monitor and manage health data for their family members.<br/>
+Multi-Language Support: Provides services in regional languages for better inclusivity.<br/>
+Doctor Communication: Facilitates direct communication for follow-ups and medical queries.<br/>
+Health Statistics: Delivers localized health trends and alerts based on user demographics.<br/>
+Tracking: Step count and calorie tracking, integration with wearable devices, and nutrition and sleep tracking.<br/>
+Diagnostic Center Integration: Enables users to manage and access health reports from labs.<br/>
+Health Reminders: Sends notifications for timely medication adherence.<br/>
+Educational Content: Provides access to articles, videos, and resources on health and wellness.<br/>
+Nearby Hospitals: Provides information about nearby hospitals and their available services.<br/>
+Voice-Enabled Interaction: Enables seamless interaction for users with literacy or vision impairments.<br/>
 
 3. Tech Stack:
    
 Frontend:
 
-React.js: For building a dynamic and interactive user interface.
-Bootstrap: For responsive and visually appealing UI components.
-Responsive UI: Ensures a seamless experience across different devices.
-HTML, CSS, JavaScript: To enhance responsiveness and usability.
+React.js: For building a dynamic and interactive user interface.<br/>
+Bootstrap: For responsive and visually appealing UI components.<br/>
+Responsive UI: Ensures a seamless experience across different devices.<br/>
+HTML, CSS, JavaScript: To enhance responsiveness and usability.<br/>
 
 Backend:
 >
