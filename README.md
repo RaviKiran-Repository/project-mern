@@ -25,6 +25,7 @@ Voice-Enabled Interaction: Enables seamless interaction for users with literacy 
 3. Tech Stack:
    
 Frontend:
+
 React.js: For building a dynamic and interactive user interface.
 Bootstrap: For responsive and visually appealing UI components.
 Responsive UI: Ensures a seamless experience across different devices.
