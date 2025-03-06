@@ -1,0 +1,342 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #1974d6;
+  color: rgb(237, 234, 234);
+  padding: 0.5 rem 0; /* Padding for top and bottom */
+  position: sticky; /* Make header sticky */
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 100; /* Ensure it stays on top of other content */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo-icon {
+  margin-right: 0.5rem;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  margin-right: 5px;
+}
+
+.dropdown-menu {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 0; /* Start hidden */
+  transform: translateY(-10px); /* Start with a slight offset */
+  transition: opacity 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block; /* Show the menu */
+  opacity: 1; /* Make visible */
+  transform: translateY(0); /* Reset offset */
+}
+
+.dropdown-item {
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd;
+}
+
+
+/* Home Styles */
+/* Home Styles */
+.home {
+  padding: 3rem 0; /* Padding for top and bottom */
+  text-align: center; /* Center the text */
+  background-image: url('./images/background1.png'), url('./images/background2.png'); /* Set your background images */
+  background-size: 1520px 750px ; /* Cover the entire section */
+  background-position: center; /* Center the images */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrollbars if the background image is larger than the container */
+}
+
+.home h1 {
+  font-size: 2.5rem; /* Heading size */
+  margin-bottom: 1rem; /* Space below heading */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home p {
+  font-size: 1.2rem; /* Paragraph size */
+  color: #666; /* Grey color for text */
+  margin-bottom: 2rem; /* Space below paragraph */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Features Styles */
+.features {
+    padding: 3rem 0; /* Padding for features section */
+}
+
+.card {
+    border: none; /* No border on cards */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05); /* Subtle shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Increased shadow on hover */
+}
+
+.card-img-top {
+    max-height: 200px; /* Limit image height */
+    object-fit: contain; /* Make images fit without stretching */
+    padding: 10px; /* Add padding around the image */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Title size */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 0.75rem; /* Space below title */
+}
+
+.card-text {
+    color: #555; /* Dark grey for card text */
+}
+
+/* Button hover effects */
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-outline-secondary:hover,
+.btn-danger:hover,
+.btn-info:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+    transition: opacity 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Auth Styles (Login/Signup) */
+.authContainer {
+    padding: 20px;
+}
+
+.authCard {
+    padding: 20px;
+    border: none;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.authCard h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #f8f9fa; /* Light footer background */
+    border-top: 1px solid #dee2e6; /* Light border on top of footer */
+    padding: 1rem 5rem; /* Padding for footer section */
+    color: #555; /* Dark grey for footer text */
+    text-align: center; /* Center the contents */
+}
+
+.footer h5 {
+    font-size: 1.2rem; /* Footer heading size */
+    margin-bottom: 1rem; /* Space below footer heading */
+}
+
+.footer p {
+    font-size: 0.9rem; /* Footer paragraph size */
+    line-height: 1.6; /* Line height for readability */
+}
+
+.footer-link {
+    color: #007bff; /* Bootstrap primary link color */
+    text-decoration: none; /* No underline on links */
+   transition: color 0.3s; /* Smooth transition */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Underline on hover for links */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Center the columns in the footer */
+.footer .col-md-3 {
+    text-align: center;
+}
+
+/* Adjust language select and copyright */
+.footer .row.mt-3 {
+    text-align: center;
+
+}
+
+.language-select {
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size:.9rem;
+    border:.125rem solid #ced4da;
+    border-radius:.25rem
+}
+.footer-note {
+   font-size:.8rem
+}
+
+/* Symptom Checker Styles */
+.symptom-checker-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Mental Health Styles */
+.mental-health-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Family Health Styles */
+.family-health-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Doctor Communication Styles */
+.doctor-communication-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Health Statistics Styles */
+.health-statistics-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Emergency Assistance Styles */
+.emergency-assistance-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Tracking Styles */
+.tracking-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Educational Content Styles */
+.educational-content-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* AI-Driven Health Advice Styles */
+.ai-driven-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Voice Interaction Styles */
+.voice-interaction-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Nearby Hospitals Styles */
+.hospital-location-image {
+   max-height :150px ;
+   object-fit :contain
+}
+
+/* Health Reminders Styles */
+.health-reminder-image {
+   max-height :150px ;
+   object-fit :contain
+}
+/* Logout Styles */
+.logout {
+  padding: 2rem 0; /* Padding for top and bottom */
+  text-align: center; /* Center the text */
+}
+
+.logout h1 {
+  font-size: 2rem; /* Heading size */
+  margin-bottom: 1rem; /* Space below heading */
+  color: #333; /* Dark color for heading */
+}
+
+.logout p {
+  font-size: 1.2rem; /* Paragraph size */
+  color: #666; /* Grey color for text */
+  margin-bottom: 2rem; /* Space below paragraph */
+}
+
+.logout-button {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white; /* White text */
+  padding: 0.5rem 1rem; /* Padding for button */
+  border: none; /* No border */
+  border-radius: 0.25rem; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Login/Signup Styles */
+/*.login-signup-image {
+   max-height :150px ;
+   object-fit :contain
+} */
